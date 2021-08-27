@@ -40,10 +40,10 @@
       - `depth`: Depth from the first directory
 
     - The methods defined by the class are:
-      - `show`: Shows the instance information as follows:` depth directory name (number of files) in whitespace`
-      - `show_all`: Executes the` show` method on all subordinate instances and themselves
-      - `rename`: Renames all files in the instance based on ` prefex`:the user-set prefix / suffix information , and `joint` the word joint information.
-      - `rename_all`: Executes the` rename` method for the instance and all of its instances
+      - `show`: Shows the instance information as follows: `depth directory name (number of files) in whitespace`
+      - `show_all`: Executes the`show` method on all subordinate instances and themselves
+      - `rename`: Renames all files in the instance based on `prefex`:the user-set prefix / suffix information , and `joint` the word joint information.
+      - `rename_all`: Executes the `rename` method for the instance and all of its instances
 
   - The `question_YN` function takes the string given as an argument as a question sentence, asks for a yes or no answer, and returns the answer as true or false value.
-    - If the answer is neither `y`,` n`, `yes`,` no`, repeat the question until you get the correct answer.
+    - If the answer is neither `y`, `n`, `yes`, `no`, repeat the question until you get the correct answer.
